@@ -18,6 +18,21 @@
 *  *alpha_to_dig* : set this to true if you wish to convert letters (with a similar digit counterpart) to their similar digit counterpart. default = false
 
 ## Usage ##
+
+<small>options for inclusion</small>
+
+*  [Download](https://github.com/Jeffgl77/PasswordGenV1/archive/master.zip "download") 
+*  git bash clone : [https://github.com/Jeffgl77/PasswordGenV1.git]
+
+<small>copy following files to desired location</small>
+
+*  class_pwdgen.php
+*  pwdgen_config.json
+
+<small>require the class file on the page you wish to use this script.</small>
+
+*  <code>require_once('PATH/TO/CLASS/class_pwdgen.php');</code>
+
 <small>2 ways to use</small>
 
 *  <code>echo PwdGen::fetchPwd();</code>
