@@ -1,7 +1,7 @@
-#PasswordGenV1#
+# PasswordGenV1 #
 <small>a configurable password generator</small>
 
-##Configuration##
+## Configuration ##
 <small>pwdgen_config.json</small>
 
 *  *min_length* : this is the minimum allowable size of the password to generate. default = 8
@@ -17,7 +17,7 @@
 *  *alpha_to_sym* : set this to true if you wish to convert letters (with a similar symbolic counterpart) to their similar symbolic counterpart. default = false
 *  *alpha_to_dig* : set this to true if you wish to convert letters (with a similar digit counterpart) to their similar digit counterpart. default = false
 
-##Usage##
+## Usage ##
 <small>2 ways to use</small>
 
 *  ``echo PwdGen::fetchPwd();``
