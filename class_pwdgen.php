@@ -6,7 +6,7 @@
      * Date: 3/26/2017
      * Time: 20:55
      * Version: 1.0.3
-     * Copyright: JL Design Network 2017
+     * Copyright: JL Designs Network 2017
      */
 
     class PwdGen
