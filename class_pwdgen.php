@@ -44,15 +44,6 @@
 
 
         /**
-         * PwdGen constructor.
-         */
-        public function __construct()
-        {
-            self::init();
-            self::randString();
-        }
-
-        /**
          *
          */
         private static function init(): void
@@ -179,6 +170,9 @@
          */
         public static function fetchPwd()
         {
+            self::init();
+            self::randString();
+
             $string = '';
             foreach(self::$pwdarr as $key => $value) :
                 $string .= $value;
@@ -191,7 +185,5 @@
         }
     }
 
-    $pwd = new PwdGen();
-    echo "<pre>";
-    echo PwdGen::fetchPwd();
-    echo "</pre>";
+    $password = new PwdGen();
+    echo $password->fetchPwd();
