@@ -1,7 +1,7 @@
 {
     "vowels":true,
     "consonants":true,
-    "case":"lower",
+    "case":"mixed",
     "symbols":true,
     "req_symbols":2,
     "digits":true,
@@ -9,6 +9,6 @@
     "min_length":8,
     "max_length":15,
     "alpha_to_sym":false,
-    "alpha_to_dig":true,
+    "alpha_to_dig":false,
     "char_first":true
 }
