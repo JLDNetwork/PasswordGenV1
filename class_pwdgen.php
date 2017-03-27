@@ -186,6 +186,3 @@
             return (self::$configs['case'] == 'lower' ? strtolower($string) : (self::$configs['case'] == 'upper' ? strtoupper($string) : $string));
         }
     }
-
-    $password = new PwdGen();
-    echo $password->fetchPwd();
