@@ -112,7 +112,7 @@
             endwhile;
 
             shuffle($characters);
-            if(self::$configs['alpha_first']) :
+            if((self::$configs['alpha_first'] && self::$configs['consonants']) || (self::$configs['alpha_first'] && self::$configs['vowels'])) :
                 self::$pwdarr = self::rearrange($characters);
             else :
                 self::$pwdarr = $characters;
