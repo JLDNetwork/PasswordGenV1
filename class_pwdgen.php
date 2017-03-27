@@ -121,7 +121,7 @@
             endwhile;
 
             shuffle($characters);
-            if(self::$configs['char_first']) :
+            if(self::$configs['alpha_first']) :
                 self::$pwdarr = self::rearrange($characters);
             else :
                 self::$pwdarr = $characters;
