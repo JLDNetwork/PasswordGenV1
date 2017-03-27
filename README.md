@@ -1,5 +1,9 @@
 # PasswordGenV1 #
-<small>a configurable password generator</small>
+<small>A configurable password generator</small>
+
+## Requirements ##
+
+*  PHP7
 
 ## Configuration ##
 <small>pwdgen_config.json</small>
@@ -19,17 +23,17 @@
 
 ## Usage ##
 
-<small>options for inclusion</small>
+<small>Options for inclusion</small>
 
 *  [Download](https://github.com/Jeffgl77/PasswordGenV1/archive/master.zip "download") 
 *  git bash clone : [https://github.com/Jeffgl77/PasswordGenV1.git]
 
-<small>copy following files to desired location</small>
+<small>Copy following files to desired location</small>
 
 *  class_pwdgen.php
 *  pwdgen_config.json
 
-<small>require the class file on the page you wish to use this script.</small>
+<small>Require the class file on the page you wish to use this script.</small>
 
 *  <code>require_once('PATH/TO/CLASS/class_pwdgen.php');</code>
 
