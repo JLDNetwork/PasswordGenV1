@@ -3,7 +3,7 @@
 
 ## Requirements ##
 
-*  PHP7
+*  PHP 7.1
 
 ## Configuration ##
 <small>pwdgen_config.json</small>
