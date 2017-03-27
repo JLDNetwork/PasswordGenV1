@@ -1,0 +1,14 @@
+{
+    "vowels":true,
+    "consonants":true,
+    "case":"lower",
+    "symbols":true,
+    "req_symbols":2,
+    "digits":true,
+    "req_digits":2,
+    "min_length":8,
+    "max_length":15,
+    "alpha_to_sym":false,
+    "alpha_to_dig":true,
+    "char_first":true
+}
