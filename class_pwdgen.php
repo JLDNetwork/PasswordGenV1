@@ -2,9 +2,10 @@
 
     /**
      * Created by PhpStorm.
-     * User: jgllt
+     * User: Jeff Langdon <jgl.ltrain.77@outlook.com>
      * Date: 3/26/2017
      * Time: 20:55
+     * Version: 1.0.3
      */
 
     class PwdGen
