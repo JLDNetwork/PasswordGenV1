@@ -8,8 +8,8 @@
 ## Configuration ##
 <small>pwdgen_config.json</small>
 
-*  *min_length* : this is the minimum allowable size of the password to generate. default = 8
-*  *max_length* : this is the maximum allowable size of the password to generate. default = 15
+*  *min_length* : this is the minimum allowable size of the password to generate. larger length will produce stronger passwords. default = 8
+*  *max_length* : this is the maximum allowable size of the password to generate. larger length will produce stronger passwords. default = 15
 *  *case* : this sets the case of the password to generate. available settings are 'upper', 'lower' and 'mixed'. default = mixed
 *  *alpha_first* : set this to true if you require the first character to be a letter (a-z); else set to false. default = true
 *  *vowels* : set this to true if you require the use of vowels in your password; else set to false. default = true
