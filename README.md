@@ -20,6 +20,6 @@
 ## Usage ##
 <small>2 ways to use</small>
 
-*  ``echo PwdGen::fetchPwd();``
-*  ``$password = new PwdGen();
-echo $password->fetchPwd();``
+*  <code>echo PwdGen::fetchPwd();</code>
+*  <code>$password = new PwdGen();
+echo $password->fetchPwd();</code>
